@@ -21,14 +21,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 1rem;
 }
 
 .reminder-list {
-  margin-top: 8rem;
+  margin: 7.5rem 0;
   background-color: rgb(245, 245, 245);
   border-radius: 12px;
   box-shadow: 0 0 35px rgb(0, 0, 0, 0.4);
-  width: 450px;
+  max-width: 450px;
+  width: 100%;
   padding: 2rem 2rem;
   padding-bottom: 5rem;
 }
@@ -52,6 +54,9 @@ body {
 .remind-item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 1rem;
 }
 
 .person {
